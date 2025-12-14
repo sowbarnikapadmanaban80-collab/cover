@@ -1,0 +1,75 @@
+
+.container
+{
+    margin: 0;
+    background :url(bg.png.png) no-repeat center/contain;
+    background-size: 800px 700px;
+    padding: 100px;
+    width: 470px;
+    margin: 35 auto;
+    padding: 25;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #006611;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: #003366;
+}
+
+p {
+    line-height: 1.5
+    font-size: 18px;
+}
+
+.highlight {
+    background: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
+.quote {
+    background: #e6f4ff;
+    border-left: 6px solid #2b6cb0;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    gap: 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.author img {
+    width: 140px;
+    height: 130px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.author h3 {
+    margin: 0;
+    color: #003366;
+}
+
+.footer {
+    margin-top: 40px;
+    background: #660058;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    font-size:17px;
+}
+
+.price {
+    font-weight: bold;
+}
